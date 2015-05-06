@@ -1,0 +1,42 @@
+html{
+	height: 100%;
+}
+
+body{
+
+	position: relative;
+	height: 100%;
+	background: url(porkScene.png) center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	overflow: hidden;
+}
+
+/*div{
+	positiosn: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: url(pork.png) center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	
+}*/
+
+#head{
+	position: absolute;
+	width: 10%;
+	top: 25%;
+	right: 40%;
+	cursor: pointer;
+}
+
+#head2{
+	position: absolute;
+	width:3%;
+	top:-20%;
+	left:10%;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
